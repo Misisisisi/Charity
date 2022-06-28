@@ -1,12 +1,18 @@
 package pl.coderslab.charity.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import lombok.*;
+
+import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 
 @Entity
+@Table(name="instutitions")
+@Getter
+@Setter
+@ToString
+@EqualsAndHashCode(of = "id")
+@NoArgsConstructor
+@AllArgsConstructor @Builder
 public class InstitutionEntity {
 
     @Id
