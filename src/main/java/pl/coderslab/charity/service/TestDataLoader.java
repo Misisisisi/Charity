@@ -18,7 +18,7 @@ import java.time.LocalTime;
 import java.util.List;
 import java.util.Set;
 
-@ConditionalOnProperty(name = "spring.jpa.hibernate.ddl-auto", havingValue = "update")
+@ConditionalOnProperty(name = "spring.jpa.hibernate.ddl-auto", havingValue = "create-drop")
 @Component
 @Slf4j
 @RequiredArgsConstructor
