@@ -23,8 +23,7 @@
             <img src="<c:url value="/resources/images/icon-instagram.svg"/>"/></a>
         </div>
     </div>
+    <script src="<c:url value="resources/js/app.js"/>"></script>
+
 </footer>
 
-<script src="<c:url value="resources/js/app.js/>"/></script>
-</body>
-</html>
