@@ -65,6 +65,7 @@ public class TestDataLoader {
                         .pickUpTime(LocalTime.ofSecondOfDay(15))
                         .street("abc")
                         .zipCode("12-255")
+                        .phone("789123456")
                 .build());
 
 
