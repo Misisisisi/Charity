@@ -42,7 +42,7 @@
                             <input class="categoryForm"
                                     type="checkbox"
                                     name="categories"
-                                    value=${category.id}
+                                    value=${categories.id}
                             />
                             <span class="checkbox"></span>
                             <span class="description"
