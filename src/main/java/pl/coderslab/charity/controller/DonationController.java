@@ -27,7 +27,7 @@ public class DonationController {
     private final DefaultInstitutionService institutionService;
     private final DonationRepository donationRepository;
 
-    @GetMapping("donations")
+    @GetMapping("/donations")
     public String processView (Model model) {
        model.addAttribute("donation", new DonationEntity()) ;
         List<CategoryEntity> categories = categoryService.loadCategories();
