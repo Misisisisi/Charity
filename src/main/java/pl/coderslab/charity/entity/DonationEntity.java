@@ -47,7 +47,7 @@ public class DonationEntity {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate pickUpDate;
     @NotNull
-    @DateTimeFormat (pattern = "hh:mm")
+    @DateTimeFormat (pattern = "HH:mm")
     private LocalTime pickUpTime;
 
     private String pickUpComment;
