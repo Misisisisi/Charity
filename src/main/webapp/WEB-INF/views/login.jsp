@@ -20,18 +20,18 @@
         </ul>
 
         <ul>
-            <li><a href="index.html" class="btn btn--without-border active">Start</a></li>
-            <li><a href="index.html#steps" class="btn btn--without-border">O co chodzi?</a></li>
-            <li><a href="index.html#about-us" class="btn btn--without-border">O nas</a></li>
-            <li><a href="index.html#help" class="btn btn--without-border">Fundacje i organizacje</a></li>
-            <li><a href="index.html#contact" class="btn btn--without-border">Kontakt</a></li>
+            <li><a href="/" class="btn btn--without-border active">Start</a></li>
+            <li><a href="/#steps" class="btn btn--without-border">O co chodzi?</a></li>
+            <li><a href="/#about-us" class="btn btn--without-border">O nas</a></li>
+            <li><a href="/#help" class="btn btn--without-border">Fundacje i organizacje</a></li>
+            <li><a href="/#contact" class="btn btn--without-border">Kontakt</a></li>
         </ul>
     </nav>
 </header>
 
 <section class="login-page">
     <h2>Zaloguj się</h2>
-    <spring:form action="/login" method="post" modelAttribute="login">
+    <spring:form action="/login" modelAttribute="login" method="post" >
         <div class="form-group">
             <spring:input path="email" type="email" name="email" placeholder="Email" />
         </div>
