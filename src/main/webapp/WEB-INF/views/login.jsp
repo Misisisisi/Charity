@@ -45,6 +45,7 @@
             <spring:button class="btn btn-primary btn-user btn-block">Zaloguj</spring:button>
         </div>
     </spring:form>
+
 </section>
 
 <jsp:include page="static/footer.jsp"/>
